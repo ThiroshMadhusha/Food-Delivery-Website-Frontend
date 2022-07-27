@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.heading > :nth-child(1) {
+  color: var(--themeRed);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heading > :nth-child(2) {
+  font-size: 3rem;
+}
+
+.heading > :nth-child(3) {
+  font-size: 4rem;
+}
+
+.ImageWrapper {
+  width: 22rem;
+  height: 16rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.pizza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.ImageWrapper > span > img:hover {
+  transform: scale(1.1);
+}
+
+.pizza:hover {
+  cursor: pointer;
+}
